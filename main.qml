@@ -187,7 +187,7 @@ ApplicationWindow {
         title: "About"
         x: (window.width - width) / 2
         y: window.height / 6
-        width: Math.min(window.width, window.height) / 3 * 3
+        width: 400
         contentHeight: aboutColumn.height
 
         Column {

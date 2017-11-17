@@ -4,5 +4,7 @@ var icons = {
     playArrow: '\uE037',
     volumeOff: '\uE04F',
     volumeUp: '\uE050',
-    pause: '\uE034'
+    pause: '\uE034',
+    person: '\uE7FD',
+    lock: '\uE897'
 }

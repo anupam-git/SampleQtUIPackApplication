@@ -12,5 +12,8 @@
         <file>WeatherWidget.qml</file>
         <file>WeatherWidgetForm.ui.qml</file>
         <file>Weather.js</file>
+        <file>Login.qml</file>
+        <file>LoginForm.ui.qml</file>
+        <file>facebook.png</file>
     </qresource>
 </RCC>

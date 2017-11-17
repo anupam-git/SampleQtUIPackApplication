@@ -1,5 +1,6 @@
 import QtQuick 2.4
 import QtQuick.Controls 2.2
+import QtQuick.Controls.Material 2.2
 import QtQuick.Layouts 1.3
 
 Rectangle {
@@ -16,6 +17,8 @@ Rectangle {
     property alias forecastDay1: forecastDay1
     property alias forecastDay2: forecastDay2
     property alias forecastDay3: forecastDay3
+    property alias searchMouseArea: searchMouseArea
+    property alias inputCity: inputCity
 
     id: rectangle
     Rectangle {
@@ -73,6 +76,36 @@ Rectangle {
                 anchors.top: todayWeatherImage.bottom
                 anchors.topMargin: 0
                 font.pixelSize: 18
+            }
+        }
+
+        RowLayout {
+            anchors.horizontalCenter: parent.horizontalCenter
+            anchors.bottom: parent.bottom
+            anchors.bottomMargin: 8
+
+            TextField {
+                id: inputCity
+                width: 250
+                bottomPadding: 12
+                placeholderText: "City"
+                opacity: 0.8
+                color: "#ffffff"
+                horizontalAlignment: Text.AlignHCenter
+                Layout.fillWidth: true
+                Material.accent: "#ffffff"
+            }
+            Text {
+                font.family: mdFont.name
+                text: "search"
+                color: "#fff"
+                font.pixelSize: 25
+
+                MouseArea {
+                    id: searchMouseArea
+                    anchors.fill: parent
+                    cursorShape: Qt.PointingHandCursor
+                }
             }
         }
     }
