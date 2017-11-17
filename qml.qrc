@@ -2,8 +2,6 @@
     <qresource prefix="/">
         <file>main.qml</file>
         <file>qtquickcontrols2.conf</file>
-        <file>HeaderComponent.qml</file>
-        <file>HeaderComponentForm.ui.qml</file>
         <file>icon.js</file>
         <file>VideoPlayer.qml</file>
         <file>VideoPlayerForm.ui.qml</file>
@@ -11,5 +9,8 @@
         <file>materialiconsregular.ttf</file>
         <file>MainComponent.qml</file>
         <file>MainComponentForm.ui.qml</file>
+        <file>WeatherWidget.qml</file>
+        <file>WeatherWidgetForm.ui.qml</file>
+        <file>Weather.js</file>
     </qresource>
 </RCC>

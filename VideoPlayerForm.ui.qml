@@ -4,8 +4,7 @@ import QtQuick.Controls.Material 2.2
 import QtMultimedia 5.9
 import "icon.js" as MdiFont
 
-Item {
-    id: item1
+Rectangle {
     property alias video: video
     property alias controls: controls
     property alias btnPlay: btnPlay
@@ -32,7 +31,7 @@ Item {
         anchors.top: parent.top
         anchors.topMargin: 0
 
-        color: "#000000"
+        color: "#fff"
 
         Video {
             id: video

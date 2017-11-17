@@ -2,6 +2,7 @@ import QtQuick 2.7
 import QtQuick.Controls 2.2
 import QtQuick.Controls.Material 2.2
 import QtQuick.Layouts 1.3
+import QtGraphicalEffects 1.0
 import "icon.js" as MdiFont
 
 Item {
@@ -18,11 +19,22 @@ Item {
     anchors.topMargin: 0
 
     VideoPlayer {
+        id: videoPlayer
+        width: 450
         height: 253
         anchors.left: parent.left
         anchors.leftMargin: 20
         anchors.top: parent.top
         anchors.topMargin: 20
-        width: 450
+    }
+
+    WeatherWidget {
+        id: weatherWidget
+        width: 300
+        height: 400
+        anchors.top: parent.top
+        anchors.topMargin: 20
+        anchors.left: videoPlayer.right
+        anchors.leftMargin: 20
     }
 }
