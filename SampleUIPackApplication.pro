@@ -30,3 +30,7 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 
 # Custom Imports
 include(vendor/vendor.pri)
+
+DISTFILES += \
+    LICENSE \
+    README.md
