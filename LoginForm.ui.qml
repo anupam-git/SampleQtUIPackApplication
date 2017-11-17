@@ -20,7 +20,6 @@ RowLayout {
         id: header
         width: parent.width
         height: 70
-        color: "#2196f3"
         anchors.top: parent.top
         anchors.left: parent.left
 
@@ -131,7 +130,7 @@ RowLayout {
             height: parent.height
 
             Text {
-                text: "Login"
+                text: "SignIn"
                 font.weight: Font.Bold
                 font.pointSize: 15
                 font.capitalization: Font.AllUppercase

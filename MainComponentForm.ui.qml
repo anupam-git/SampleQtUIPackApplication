@@ -45,4 +45,13 @@ Item {
         anchors.top: videoPlayer.bottom
         anchors.topMargin: 20
     }
+
+    UserCard {
+        width: 450
+        height: 200
+        anchors.top: weatherWidget.bottom
+        anchors.topMargin: 20
+        anchors.left: weatherWidget.left
+        anchors.leftMargin: 0
+    }
 }

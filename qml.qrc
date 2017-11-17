@@ -15,5 +15,8 @@
         <file>Login.qml</file>
         <file>LoginForm.ui.qml</file>
         <file>facebook.png</file>
+        <file>UserCard.qml</file>
+        <file>UserCardForm.ui.qml</file>
+        <file>user.png</file>
     </qresource>
 </RCC>

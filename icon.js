@@ -6,5 +6,8 @@ var icons = {
     volumeUp: '\uE050',
     pause: '\uE034',
     person: '\uE7FD',
-    lock: '\uE897'
+    lock: '\uE897',
+    thumbUp: '\uE8DC',
+    thumbDown: '\uE8DB',
+    favorite: '\uE87D'
 }
